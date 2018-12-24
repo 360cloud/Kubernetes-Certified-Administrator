@@ -6,7 +6,7 @@ Online resources that will help you prepare for taking the Kubernetes Certified 
 
 I tried to restrict the cross references of resources to [kubernetes.io](kubernetes.io). Youtube videos and other blog resources are optional; however, I still found them useful in my k8s learning journey.
 
-Ensure you have the right version of Kubernetes documentation selected (e.g. v1.10.2 as of May 2018 exam) especially for API objects and annotations.
+Ensure you have the right version of Kubernetes documentation selected (e.g. v1.11.1 as of 31st July 2018 exam) especially for API objects and annotations.
 
 ## Exam Objectives
 
@@ -16,7 +16,7 @@ These are the exam objectives you review and understand in order to pass the tes
 
 
 ### [Core Concepts](https://kubernetes.io/docs/concepts/) 19%
-* [Understand the Kubernetes API primitives](https://v1-9.docs.kubernetes.io/docs/reference/generated/kubernetes-api/v1.9/)
+* [Understand the Kubernetes API primitives](https://v1-11.docs.kubernetes.io/docs/reference/generated/kubernetes-api/v1.11/)
   * [concepts: Kubernetes Objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/)
   * youtube: [Kubernetes Webinar Series - Kubernetes Architecture 101](https://www.youtube.com/watch?v=zeS6OyDoy78)
 * [Understand the Kubernetes cluster architecture](https://kubernetes.io/docs/concepts/overview/components/)
@@ -56,7 +56,6 @@ spec:
 * [Provision underlying infrastructure to deploy a Kubernetes cluster](https://github.com/kelseyhightower/kubernetes-the-hard-way/blob/f9486b081f8f54dd63a891463f0b0e783d084307/docs/01-infrastructure-gcp.md)
 * [Choose a network solution](https://kubernetes.io/docs/getting-started-guides/scratch/#network)
 * Choose your Kubernetes infrastructure configuration
-* Choose your Kubernetes infrastructure configuration
 * Run end-to-end tests on your cluster    
   * Some simple commands will cover most cases:
 ```
@@ -77,7 +76,7 @@ $ kubectl get svc  -o wide --show-labels --all-namespaces
     * youtube: [Building for Trust: How to Secure Your Kubernetes Cluster [I] - Alexander Mohr & Jess Frazelle](https://www.youtube.com/watch?v=YRR-kZub0cA)
 * [Know how to configure authentication and authorization](https://kubernetes.io/docs/admin/authorization/rbac/)
   * [Access the api](https://kubernetes.io/docs/admin/accessing-the-api/)
-  * [Authentication]()
+  * [Authentication](https://kubernetes.io/docs/reference/access-authn-authz/authentication/)
   * [Authorization with RBAC](https://kubernetes.io/docs/admin/authorization/rbac/)
   * [Admission Control](https://kubernetes.io/docs/admin/admission-controllers/)
 * [Understand Kubernetes security primitives]
